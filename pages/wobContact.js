@@ -18,7 +18,7 @@ function WobContact() {
     lastName: "",
     email: "",
     phoneNumber: "",
-    message: ""
+    message: "",
   });
 
   const handleInputChange = (field, value) => {
