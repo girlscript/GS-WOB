@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [active, setActive] = useState(false);
   const [mounted, setMounted] = useState(false);
   const { theme } = useTheme();
-  const gssocLink =  "http://localhost:3001" //"https://gssoc.girlscript.tech"
+  const gssocLink =  "https://gssoc.girlscript.tech"
 
   const handleClick = () => {
     setActive(!active);
