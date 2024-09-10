@@ -52,7 +52,7 @@ const MoreMenu = ({ handleClick }) => {
                 )}
               </Menu.Item>
             </Link>
-            <Link href={""}>
+            <Link href={"/wobInfo"}>
               <Menu.Item>
                 {({ active }) => (
                   <a
