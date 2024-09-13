@@ -1,5 +1,37 @@
 [
   {
+    "Name": "Anubha Maneshwar",
+    "Designation": "Founder & CEO, GirlScript Foundation",
+    "Image": "https://user-images.githubusercontent.com/63473496/152328358-1a556faf-f644-463c-bdfb-99bc0b28e366.png",
+    "GitHub": "https://github.com/anubhamane",
+    "Twitter": "https://twitter.com/anubhamane",
+    "LinkedIn": "https://www.linkedin.com/in/anubhamane/"
+  },
+  {
+    "Name": "Mohit Varu",
+    "Designation": "MD, GirlScript Foundation",
+    "Image": "https://raw.githubusercontent.com/girlscript/GirlScript-Summer-of-Code/master/images/team/2020/mohit.jpg",
+    "GitHub": "",
+    "Twitter": "https://twitter.com/13_Saanjh",
+    "LinkedIn": "https://www.linkedin.com/in/mohitvaru/"
+  },
+  {
+    "Name": "Sowmiya V",
+    "Designation": "WOB'24 Advisor",
+    "Image": "https://i.imgur.com/MiKJakv.jpg",
+    "GitHub": "",
+    "Twitter": "https://x.com/sowmiyeh",
+    "LinkedIn": "https://www.linkedin.com/in/sowmiyavenkatesan/"
+  },
+  {
+    "Name": "Sanjay Viswanathan",
+    "Designation": "Senior Program Manager",
+    "Image": "https://github.com/GSSoC24/.github/blob/main/assets/Sanjay%20Viswanathan.jpg?raw=true",
+    "GitHub": "https://github.com/sanjay-kv",
+    "Twitter": "https://twitter.com/sanjay_kv_",
+    "LinkedIn": "https://www.linkedin.com/in/sanjay-k-v/"
+  },
+  {
     "Name": "Rishi Mondal",
     "Designation": "Program Manager",
     "LinkedIn": "https://www.linkedin.com/in/rishi-mondal-5238b2282/",
@@ -40,20 +72,28 @@
     "Image": "https://i.imgur.com/7oBaYdx.png"
   },
   {
+    "Name": "Anusha Agarwal",
+    "Designation": "Web Developer",
+    "LinkedIn": "https://www.linkedin.com/in/anusha-agarwal-068b70271",
+    "GitHub": "https://github.com/anusha7530",
+    "Twitter": "https://x.com/anusha4044",
+    "Image": "https://i.imgur.com/Qv3Vmth.jpg"
+  },
+  {
+    "Name": "Sneha Shrivastava",
+    "Designation": "Discord Moderator",
+    "LinkedIn": "https://www.linkedin.com/in/sneha-kumari1/",
+    "GitHub": "https://github.com/Snehsk",
+    "Twitter": "https://x.com/SnehaKumariSk1",
+    "Image": "https://i.imgur.com/dgenPyz.jpg"
+  },
+  {
     "Name": "Sneha Singh",
     "Designation": "Discord Moderator",
     "LinkedIn": "https://www.linkedin.com/in/sneha-singh-636578273/",
     "GitHub": "https://github.com/Sneha6003",
     "Twitter": "https://x.com/Sneha7590",
     "Image": "https://i.imgur.com/xiLi9fQ.jpg"
-  },
-  {
-    "Name": "Nehal Fathema",
-    "Designation": "UI/UX Designer",
-    "LinkedIn": "https://www.linkedin.com/in/nehal-fathema",
-    "GitHub": "https://github.com/nehal-5",
-    "Twitter": "https://x.com/fathema_nehal",
-    "Image": "https://i.imgur.com/3HsJNhV.jpg"
   },
   {
     "Name": "Ambika Choudhary",
@@ -63,12 +103,11 @@
     "Image": "https://i.imgur.com/HnxuFdK.jpg"
   },
   {
-    "Name": "Anusha Agarwal",
-    "Designation": "Web Developer",
-    "LinkedIn": "https://www.linkedin.com/in/anusha-agarwal-068b70271",
-    "GitHub": "https://github.com/anusha7530",
-    "Twitter": "https://x.com/anusha4044",
-    "Image": "https://i.imgur.com/Qv3Vmth.jpg"
+    "Name": "Kinjal Pandey",
+    "Designation": "Content Writer",
+    "LinkedIn": "https://www.linkedin.com/in/kindey10",
+    "GitHub": "https://github.com/kindey10",
+    "Image": "https://i.imgur.com/BrBettl.jpg"
   },
   {
     "Name": "Mahika Trivedi",
@@ -95,21 +134,6 @@
     "Image": "https://i.imgur.com/PBDIk0k.jpg"
   },
   {
-    "Name": "Kawalmeet Singh",
-    "Designation": "Web Developer",
-    "LinkedIn": "https://www.linkedin.com/in/kawalmeetsingh",
-    "GitHub": "https://github.com/KAWALMEET-SINGH",
-    "Twitter": "https://x.com/kawalmeet_200",
-    "Image": "https://i.imgur.com/7W6YeAQ.jpg"
-  },
-  {
-    "Name": "Manjeet Singh",
-    "Designation": "Web Developer",
-    "LinkedIn": "https://www.linkedin.com/in/manaregr8",
-    "GitHub": "https://github.com/Manaregr8",
-    "Image": "https://i.imgur.com/Z3m04dh.jpg"
-  },
-  {
     "Name": "Karan Sharma",
     "Designation": "Discord Moderator",
     "LinkedIn": "https://www.linkedin.com/in/karan2322",
@@ -131,12 +155,5 @@
     "LinkedIn": "https://www.linkedin.com/in/anjali-gautam-414700296/",
     "GitHub": "https://github.com/nisha4993",
     "Image": "https://i.imgur.com/cvFCOgd.jpg"
-  },
-  {
-    "Name": "Priyanshu Sondhiya",
-    "Designation": "Social Media Manager (Twitter)",
-    "LinkedIn": "https://www.linkedin.com/in/groot557/",
-    "Twitter": "https://x.com/Groot_557",
-    "Image": "https://i.imgur.com/Q4JBxaI.jpg"
   }
 ]
