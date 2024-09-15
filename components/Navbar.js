@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [active, setActive] = useState(false);
   const [mounted, setMounted] = useState(false);
   const { theme } = useTheme();
-  const gssocLink =  "https://gssoc.girlscript.tech"
+  const gssocLink = "https://gssoc.girlscript.tech";
 
   const handleClick = () => {
     setActive(!active);
@@ -109,9 +109,11 @@ export const Navbar = () => {
                 TEAM
               </a>
             </Link>
-            <a className="lg:inline-flex lg:w-auto w-full px-2.5 py-2 text-center rounded text-grey-700 text-1xl font-medium mr-2.5 hover:text-[#00008B] dark:hover:text-[#00008B] hover:text-lg transition-all link link-underline link-underline-black-wob cursor-pointer">
-              JOB FAIR
-            </a>
+            <Link href="/wobJobfair">
+              <a className="lg:inline-flex lg:w-auto w-full px-2.5 py-2 text-center rounded text-grey-700 text-1xl font-medium mr-2.5 hover:text-[#00008B] dark:hover:text-[#00008B] hover:text-lg transition-all link link-underline link-underline-black-wob cursor-pointer">
+                JOB FAIR
+              </a>
+            </Link>
             <Link href="/wobFaq">
               <a className="lg:inline-flex lg:w-auto w-full px-2.5 py-2 text-center rounded text-grey-700 text-1xl font-medium mr-2.5 hover:text-[#00008B] dark:hover:text-[#00008B] hover:text-lg transition-all link link-underline link-underline-black-wob cursor-pointer">
                 FAQ

@@ -146,7 +146,7 @@ export default function Wob() {
             </div>
             <p className="dark:text-white font-serif text-1xl text-black-100">
               The GirlScript Foundation is one of the leading foundations in
-              India. It has successfully completed Five Years of educating young
+              India. It has successfully completed Seven Years of educating young
               minds through robust initiatives. It aims to change lives by
               imparting tech education and relevant skills while fostering
               diversity. Apart from this, the Foundation is one of the world’s
