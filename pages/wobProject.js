@@ -8,32 +8,34 @@ const Project = () => {
   // Here we get projects data.
   const dummyData = [
     {
-      title: "Project Title",
-      lastPR: "Last PR merged at : Date, Time",
-      openIssues: "Open issues : Number",
-      openPRs: "Open PR’s : Number",
-      tags: ["tech stack", "tech stack", "tech stack", "tech stack"],
+      title: "Web3-Dream11",
+      owner: "Yogesh Agrawal",
+      tags: ["Solidity", "Javascript","Tailwind CSS", "Docker"],
+      link: "https://github.com/yogesh0509/web3-DREAM11",
     },
     {
-      title: "Project Title",
-      lastPR: "Last PR merged at : Date, Time",
-      openIssues: "Open issues : Number",
-      openPRs: "Open PR’s : Number",
-      tags: ["tech stack", "tech stack", "tech stack", "tech stack"],
+      title: "Fundraising app smart contract",
+      owner:"Parshav Singla",
+      tags: ["Solidity","Web3","Blockchain","Defis"],
+      link: "https://github.com/Parshav14/Web3_Blockchain",
     },
     {
-      title: "Project Title",
-      lastPR: "Last PR merged at : Date, Time",
-      openIssues: "Open issues : Number",
-      openPRs: "Open PR’s : Number",
-      tags: ["tech stack", "tech stack", "tech stack", "tech stack"],
+      title: "DesiNFT",
+      owner:"Ayush Kumar Singh",
+      tags: ["Solidity", "JavaScript", "Next.js", "Hardhat", "Tailwind CSS"],
+      link: "https://github.com/ayush-that/HackOn-Blocks-2024",
     },
     {
-      title: "Project Title",
-      lastPR: "Last PR merged at : Date, Time",
-      openIssues: "Open issues : Number",
-      openPRs: "Open PR’s : Number",
-      tags: ["tech stack", "tech stack", "tech stack", "tech stack"],
+      title: "AI Autonomous Billing System",
+      owner:"Adnan Mohsin",
+      tags: ["Javascript", "HTML" , "CSS" , "BOOTSTRAP", "REACT", "REDUX" , "MONGODB"],
+      link: "https://github.com/AdnanMohsin21/Enigma-_AMUHACKS3.0",
+    },
+    {
+      title: "Adopt pet",
+      owner:"Adnan Mohsin",
+      tags: ["Solidity", "React", "Typescript", "Tailwind"],
+      link: "https://github.com/Swarnendu0123/adopt-pet",
     },
   ];
 
@@ -79,9 +81,8 @@ const Project = () => {
                 <div className="p-4 text-left text-[#00008B]">
                   <div className="p-4 mt-10 m-auto h-1/2">
                     <h2 className="text-2xl md:text-4xl my-6 font-bold">{project.title}</h2>
-                    <p className="my-5 text-lg md:text-2xl">{project.lastPR}</p>
-                    <p className="my-5 text-lg md:text-2xl">{project.openIssues}</p>
-                    <p className="my-5 text-lg md:text-2xl">{project.openPRs}</p>
+                    <p className="my-5 text-lg md:text-2xl">by {project.owner}</p>
+                    <a href={project.link} target="_blank" className="my-5 text-lg md:text-2xl">Link to the project</a>
                   </div>
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-5">
                     {project.tags.map((tag, idx) => (
@@ -93,6 +94,7 @@ const Project = () => {
                       </p>
                     ))}
                   </div>
+
                 </div>
               </div>
             </div>
