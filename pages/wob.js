@@ -218,7 +218,7 @@ export default function Wob() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={400} /> : null}+</div>
+                          <div>{isVisible ? <CountUp end={2000} /> : null}+</div>
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -234,7 +234,7 @@ export default function Wob() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={100} /> : null}+</div>
+                          <div>{isVisible ? <CountUp end={150} /> : null}+</div>
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -268,7 +268,7 @@ export default function Wob() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={400} /> : null}+</div>
+                          <div>{isVisible ? <CountUp end={2500} /> : null}+</div>
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -284,7 +284,7 @@ export default function Wob() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={5} /> : null}+</div>
+                          <div>{isVisible ? <CountUp end={7} /> : null}+</div>
                         )}
                       </VisibilitySensor>
                     </h1>
@@ -300,7 +300,7 @@ export default function Wob() {
                         offset={{ bottom: 0 }}
                       >
                         {({ isVisible }) => (
-                          <div>{isVisible ? <CountUp end={205} /> : null}+</div>
+                          <div>{isVisible ? <CountUp end={150} /> : null}+</div>
                         )}
                       </VisibilitySensor>
                     </h1>
