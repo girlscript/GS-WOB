@@ -29,6 +29,30 @@
         "projectUrl": "https://github.com/Sanskriti1102/CourseGuard"
     },
     {
+        "name": "Vansh chauhan ",
+        "title": "Pay3",
+        "tags": [
+            "Next.js",
+            "TailwindCSS",
+            "Shadcn",
+            "Solana",
+            "PostgreSQL"
+        ],
+        "description": "Pay3 is a decentralized payment system that allows users to seamlessly transfer tokens using UPI IDs or QR codes.",
+        "projectUrl": "https://github.com/Anandprafull/Pay3"
+    },
+    {
+        "name": "Vansh chauhan ",
+        "title": "Crypto tracker",
+        "tags": [
+            "React js ",
+            "javascript",
+            "MERN STACK"
+        ],
+        "description": "Real time crypto tracker and exchange ",
+        "projectUrl": "https://github.com/vanshchauhan21/CryptoTracker"
+    },
+    {
         "name": "Yogesh Agrawal",
         "title": "web3-Dream11",
         "tags": [
@@ -584,6 +608,35 @@
         "projectUrl": "https://github.com/SendouD/saveXross"
     },
     {
+        "name": "Sumit Kumar",
+        "title": "Cab Rentals",
+        "tags": [
+            "Node.js",
+            "Solidity",
+            "MetaMask",
+            "HTML",
+            "JS",
+            "CSS"
+        ],
+        "description": "The Cab Rental repository is a software platform that allows users to rent vehicles for transportation with ease and convenience. The system offers a seamless experience for booking rides, enhanced by integrating Web3 features.",
+        "projectUrl": "https://github.com/07sumit1002/CabRental"
+    },
+    {
+        "name": "Shikhar Agarwal",
+        "title": "Builder Buddy",
+        "tags": [
+            "Blockchain",
+            "Solidity",
+            "Hardhat",
+            "Javascript",
+            "Ethereum",
+            "Polygon",
+            "Openzeppelin"
+        ],
+        "description": "The Cab Rental repository is a software platform that allows users to rent vehicles for transportation with ease and convenience. The system offers a seamless experience for booking rides, enhanced by integrating Web3 features.",
+        "projectUrl": "https://github.com/shikhar229169/Builder-Buddy"
+    },
+    {
         "name": "Mansi Ruhil",
         "title": "livetracker",
         "tags": [
@@ -596,6 +649,20 @@
         ],
         "description": "this projects's application notifies patients of nearby hospitals and the estimated time of arrival of the ambulance.It provides the hospital as well as ambulance drivers with critical information such as the patient\u2019s location and enables effective GPS route management via real time traffic information on scheduled routes.",
         "projectUrl": "https://github.com/mansiruhil13/Bobble-AI"
+    },
+    {
+        "name": "Mansi Ruhil",
+        "title": "PyVerse",
+        "tags": [
+            "python",
+            "blockchain",
+            "algorithms",
+            "game development",
+            "cybersecurity",
+            "deep learning"
+        ],
+        "description": "PyVerse is a dynamic, open-source hub showcasing a diverse collection of Python projects, tools, libraries, and scripts. Designed to cater to all skill levels, PyVerse covers a broad range of domains, including machine learning, web development, automation, data science, game development, and more. Whether you're a beginner exploring foundational scripts or an expert delving into advanced tools, PyVerse offers a structured, community-driven platform for learning, collaboration, and innovation in the Python ecosystem.",
+        "projectUrl": "https://github.com/UTSAVS26/PyVerse"
     },
     {
         "name": "Chrome Gaming",
@@ -623,5 +690,6 @@
         "description": "The Web3 Online Quiz Application is a decentralized platform that allows users to participate in quizzes while earning rewards in the form of tokens or NFTs. Built on blockchain technology, it offers a secure and transparent environment for users to engage in fun and educational quizzes.",
         "projectUrl": "https://github.com/Web3-0-World/Online-Qwiz-Application"
     }
+
 
 ]
