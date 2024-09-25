@@ -498,15 +498,6 @@
         "projectUrl": "https://github.com/ChromeGaming/GameSphere"
     },
     {
-        "name": "Abhishek Kumar ",
-        "title": "Cryptowallet",
-        "tags": [
-            "Nextjs\nTypescript\nNode.js\nTailwind css \nPostgreSQL \nSolana\nRust\nSolidity"
-        ],
-        "description": "CryptoPurse is the crypto currency wallet. Which handle the crypto based transition and give the user to get their crypto translation easily.\n\nCryptopurse build on the blockchain which is easy to use for the user and can handle the transaction of crypto currency. This project build on the top of using solana and etherium.\n\nTechnology which covers by this project are typescript, nextjs, node.js , PostgreSQL, tailwind css, solana, etherium.\nThese are the details about the project ",
-        "projectUrl": "https://github.com/AbhiDiva96/CryptoPurse"
-    },
-    {
         "name": "JANANATHAN",
         "title": "SaveXross",
         "tags": [
@@ -583,18 +574,6 @@
         ],
         "description": "CryptoPurse is Your Personal cryptoCurrency wallet. create your wallet . CryptoPurse introduced to for the transcation of cryptoCurrency with feature of sending and receiving cryptoCurrency.",
         "projectUrl": "https://github.com/AbhiDiva96/CryptoPurse"
-    },
-    {
-        "name": "Jananathan",
-        "title": "saveXross",
-        "tags": [
-            "solidity",
-            "ether js",
-            "hardhat",
-            "react"
-        ],
-        "description": "reduce the response time in animal rescue operations, we propose the development of a Web3-based stake and reward system. \n\nThis innovative approach leverages blockchain technology to create a transparent, efficient, and incentivized platform for timely animal rescues.\n",
-        "projectUrl": "https://github.com/SendouD/saveXross"
     },
     {
         "name": "Sumit Kumar",
