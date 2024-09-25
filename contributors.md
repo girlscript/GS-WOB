@@ -19,6 +19,13 @@
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/anusha7530">
+            <img src="https://avatars.githubusercontent.com/u/130836089?v=4" width="100;" alt="anusha7530"/>
+            <br />
+            <sub><b>Anusha Agarwal </b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/sanjay-kv">
             <img src="https://avatars.githubusercontent.com/u/30715153?v=4" width="100;" alt="sanjay-kv"/>
             <br />
