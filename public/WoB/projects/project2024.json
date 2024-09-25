@@ -17,18 +17,6 @@
         "projectUrl": "https://github.com/Girlscript-WOB/WoB-Website"
     },
     {
-        "name": "Sanskriti Kadam",
-        "title": "Course Guard",
-        "tags": [
-            "Next.js",
-            "Node.js (with Express.js)",
-            "MongoDB (NoSQL)",
-            "JSON Web Tokens"
-        ],
-        "description": "Course Guard, an innovative project that transforms how people learn and teach online through decentralized technology 🌍. We aim to make education more accessible, secure, and engaging by utilizing blockchain, smart contracts, and AI ",
-        "projectUrl": "https://github.com/Sanskriti1102/CourseGuard"
-    },
-    {
         "name": "Vansh chauhan ",
         "title": "Pay3",
         "tags": [
