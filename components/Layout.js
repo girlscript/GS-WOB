@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
   const [showPopup, setShowPopup] = useState(false);
   useEffect(() => {
     // Show the popup when the component is mounted
-    setShowPopup(false);
+    setShowPopup(true);
   }, [router]);
 
   const handleClosePopup = () => {

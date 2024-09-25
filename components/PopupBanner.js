@@ -13,85 +13,44 @@ const PopupBanner = ({ onClose }) => {
           &times;
         </button>
         <Image
-          src="/GSSOC_popup.webp"
-          alt="Postman Challenge"
+          src="/web3conf.webp"
+          alt="web3conf"
           width={600}
           height={300}
           className="rounded-lg"
         />
         <div className="mt-4">
-          <p className="text-2xl font-bold text-orange-600">
-            Postman Challenge is live now!!!
+          <p className="text-2xl font-bold text-transparent bg-gradient-to-r from-[#00008B] to-[#ADD8E6] bg-clip-text">
+            Hack Web3Conf India&apos;24!!!
           </p>
           <p className="text-lg text-gray-700">
-            Get Postman Badge
+            Let&apos;s dive into realms of Web3
           </p>
 
-          <div className="mt-4 gap-5 flex max-md:flex-col w-full items-center justify-center">
+          <div className="mt-4 gap-5 flex max-md:flex-col w-full items-center mb-4 justify-center">
             <a
               className=""
-              href="https://www.postman.com/student-program/student-expert/?utm_campaign=PTS&utm_medium=referral&utm_source=external&utm_term=girlscript&utm_content=gssoc"
+              href="https://dorahacks.io/hackathon/hack-web3conf-24/detail"
               target="_blank"
               rel="noopener noreferrer"
             >
               <button
-                id="CTA-button"
+                id="CTA-button-wob"
                 data-aos="fade-down"
-                className=" bg-gradient-to-b w-full from-primary_orange-0 to-orange-600 text-md text-white font-semibold px-4 py-4 rounded-2xl md:text-2xl md:py-2 hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600"
+                className="bg-gradient-to-r from-[#00008B] to-[#85C6DC] text-md text-white font-semibold px-4 py-4 rounded-2xl md:text-2xl md:py-2 hover:bg-gradient-to-t hover:to-[#00008B] hover:from-[#85C6DC]"
               >
                 Register Here
               </button>
             </a>
-            <a
-              className=""
-              href="https://gssoc24.github.io/Postman-Challenge/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button
-                id="CTA-button"
-                data-aos="fade-down"
-                className=" bg-gradient-to-b w-full from-primary_orange-0 to-orange-600 text-md text-white font-semibold px-4 py-4 rounded-2xl md:text-2xl md:py-2 hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600"
-              >
-                Instructions Link
-              </button>
-            </a>
           </div>
-          <div className="flex flex-row gap-4 mt-5 max-w-36 m-auto">
-            <a
-              href="https://www.linkedin.com/company/postman-platform/"
+          <p className="text-lg text-gray-700">
+            To Be a part of Web3Conf&apos;24 <a
+              className="text-[#50508E] hover:text-[#85C6DC] underline hover:no-underline hover:font-bold bg-none cursor-pointer hover:text-xl"
+              href="https://www.web3confindia.xyz"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              <img
-                className="w-[36px] h-[36px]"
-                src="/LinkedInIcon.png"
-                alt="LinkedIn"
-              />
-            </a>
-            <a
-              href="https://x.com/getpostman"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="w-[36px] h-[36px]"
-                src="/TwitterIcon.png"
-                alt="Twitter"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/getpostman"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="w-[36px] h-[36px]"
-                src="/instagramlogo.png"
-                alt="instagram"
-              />
-            </a>
-          </div>
+            >Book Now</a>
+          </p>
         </div>
       </div>
     </div>
