@@ -178,14 +178,15 @@
     },
     {
         "name": "Sanskriti Kadam",
-        "title": "CourseGuard",
+        "title": "Course Guard",
         "tags": [
-            "Frontend:\n\nReact.js\nRedux\nHTML5",
-            "CSS3",
-            "JavaScript\nMaterial-UI or Tailwind CSS\nBackend:\n\nNode.js\nExpress.js\nBlockchain Framework (Ethereum/Solidity)\nDatabase:\n\nMongoDB\nIPFS (InterPlanetary File System)\nAuthentication and Security:\n\nJWT (JSON Web Tokens)\nMetamask/Web3.js\nPayments:\n\nStripe/Crypto Payment Gateway\nDevOps and Deployment:\n\nDocker\nKubernetes\nAWS/GCP/Azure\nCI/CD Tools (Jenkins/GitHub Actions)\nAI and Analytics:\n\nTensorFlow/PyTorch\nGoogle Analytics\nAdditional Tools:\n\nSwagger\nPostman\nGit/GitHub"
+            "Next.js",
+            "Node.js (with Express.js)",
+            "MongoDB (NoSQL)",
+            "JSON Web Tokens"
         ],
-        "description": "Introducing CourseGuard, a revolutionary online education portal that combines the power of blockchain technology with a flexible course selection system to provide a secure and personalized learning experience. CourseGuard ensures top-notch security and transparency by utilizing blockchain-based authentication, making unauthorized access and data breaches virtually impossible. The platform offers an intuitive interface for selecting and purchasing courses using a unique block-based system, allowing users to customize their learning journey with pay-as-you-go access. With features like interactive learning tools, real-time assessments, and a vibrant community of learners, CourseGuard provides a seamless and engaging educational experience. Our vision is to democratize education by making it secure, flexible, and accessible to learners worldwide, fostering a global ecosystem of trust and quality education. Join CourseGuard today and take control of your educational path with confidence and flexibility.",
-        "projectUrl": "https://github.com/WEBXELA/CourseGuard"
+        "description": "Course Guard, an innovative project that transforms how people learn and teach online through decentralized technology 🌍. We aim to make education more accessible, secure, and engaging by utilizing blockchain, smart contracts, and AI ",
+        "projectUrl": "https://github.com/Sanskriti1102/CourseGuard"
     },
     {
         "name": "Paramhans Singh",
