@@ -1,40 +1,24 @@
 import { Search2Icon } from "@chakra-ui/icons";
-import { Spacer } from "@chakra-ui/react";
+import { SimpleGrid, Spacer } from "@chakra-ui/react";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
+import ProjectModal from "../components/ProjectModal";
 
 const Project = () => {
-  const [projects, setProjects] = useState([]);
-  const [filteredProjects, setFilteredProjects] = useState([]);
+  const [data, setData] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
 
   const getUsers = async (year) => {
     let url = `/WoB/projects/project${year}.json`;
     const response = await fetch(url);
     const projectData = await response.json();
-    setProjects(projectData);
-    setFilteredProjects(projectData); // Initialize filtered projects
+    setData(projectData);
   };
 
   useEffect(() => {
     getUsers("2024");
   }, []);
-
-  const handleSearch = (event) => {
-    const query = event.target.value.toLowerCase();
-    setSearchQuery(query);
-
-    const filtered = projects.filter((project) => {
-      const titleMatch = project.title?.toLowerCase().includes(query);
-      const tagsMatch = project.tags.some((tag) =>
-        tag.toLowerCase().includes(query)
-      );
-      return titleMatch || tagsMatch;
-    });
-
-    setFilteredProjects(filtered);
-  };
-
   return (
     <>
       <Head>
@@ -55,61 +39,101 @@ const Project = () => {
               <input
                 className="px-3 py-1 bg-transparent outline-none dark:text-white text-black"
                 type="search"
-                placeholder="Search"
-                value={searchQuery}
-                onChange={handleSearch}
+                placeholder="Search Projects....."
                 name="search"
                 id="search"
+                onChange={(event) => setSearchTerm(event.target.value)}
               />
             </div>
           </div>
         </div>
         <Spacer mt={16} />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-[90%] m-auto md:px-24">
-          {filteredProjects.map((project, index) => (
-            <div
-              key={index}
-              className="relative w-full max-w-[537px] h-[550px] bg-cover hover:shadow-xl hover:shadow-[#23A3CD] rounded-[50px] bg-center text-white"
-              style={{ backgroundImage: "url('/WoB/projects_card.png')" }}
-            >
-              <a href={project.projectUrl}>
-                <div className="absolute inset-0 rounded-[50px] bg-black bg-opacity-5 flex items-center justify-center">
-                  <div className="p-4 text-left w-[90%] m-auto text-[#00008B]">
-                    <div className="m-auto h-1/2">
-                      <h2 className="text-2xl text-center md:text-4xl my-6 font-bold">
-                        {project.title?.slice(0, 17)}
-                        {project.title[18] && "..."}
-                      </h2>
-                      <p className="text-lg md:text-xl mt-20 font-semibold">
-                        Project Admin:{" "}
-                        <span className="font-medium">
-                          {project.name?.slice(0, 15)}
-                          {project.name[15] && "..."}
-                        </span>
-                      </p>
-                      <p className="text-base md:text-lg mt-4 font-normal">
-                        {project.description?.slice(0, 120)}
-                        {project.description[121] && "..."}
-                      </p>
-                    </div>
-                    <div className="grid w-[95%] min-w-[235px] overflow-hidden m-auto grid-cols-2 md:grid-cols-3 gap-4 mt-5">
-                      {project.tags.map(
-                        (tag, idx) =>
-                          idx < 6 && (
-                            <p
-                              key={idx}
-                              className="w-[110px] h-[40px] text-center pt-[8px] text-white text-sm bg-[#00008B] rounded-tl-full rounded-br-full"
+        <div
+          className="flex flex-row justify-center flex-wrap items-center 
+        gap-x-10 gap-y-10 mt-9"
+        >
+          {data
+            .sort(() => 0.5 - Math.random())
+            .filter((curElem, i) => {
+              if (searchTerm == "") return curElem;
+              if (
+                curElem.tags
+                  .join(",")
+                  .toLowerCase()
+                  .includes(searchTerm.toLowerCase()) ||
+                curElem.title.toLowerCase().includes(searchTerm.toLowerCase())
+              )
+                return curElem;
+            })
+            .map((curElem, i) => {
+              return (
+                <div
+                  className="flex rounded-2xl relative bg-gradient-to-b from-[#00008B] to-[#85C6DC] items-center justify-between w-80"
+                  key={i}
+                  data-aos="flip-up"
+                  data-aos-duration="800"
+                >
+                  <img className="absolute top-5 right-4 w-[66px] h-[63px]" src="./WoB/snow.png" />
+                  <img className="absolute top-24 right-4 w-[51px] h-[44px]" src="./WoB/snow.png" />
+                  <img className="absolute top-36 right-4 w-[34px] h-[34px]" src="./WoB/snow.png" />
+                  <img className="absolute bottom-28 right-4 w-[25px] h-[25px]" src="./WoB/snow.png" />
+                  <img className="absolute bottom-20 right-4 w-[19px] h-[17px]" src="./WoB/snow.png" />
+
+                  <div className="shadow dark:bg-black rounded-lg">
+                    <div
+                      className="overflow-y-clip rounded-lg h-fit md:h-80 
+                    w-80 flex flex-col justify-start 
+                    shadow-lg shadow-black-200 relative"
+                    >
+                      <>
+                        <div className="flex flex-col justify-start gap-2 px-5 py-3">
+                          <div className="font-bold text-white md:text-xl">
+                            <a
+                              target="_blank"
+                              rel="noreferrer"
+                              href={curElem?.projectUrl}
                             >
-                              {tag.split(" ")[0]}
-                            </p>
-                          )
-                      )}
+                             {curElem.title}
+                            </a>
+                          </div>
+                          <div className="mb-3 text-sm text-[#85C6DC] md:text-md md:mb-4">
+                            By {curElem.name}
+                          </div>
+                        </div>
+                        <SimpleGrid
+                          columns={{ sm: 2, md: 3 }}
+                          spacing={2}
+                          margin={1}
+                          className="px-2"
+                        >
+                          {curElem.tags
+                            .sort((a, b) => a.length - b.length)
+                            .map((techStk, k) => {
+                              return (
+                                techStk && (
+                                  <button
+                                    className="bg-[#E6F6FF]  rounded-tl-md rounded-br-md w-full py-1
+                                      text-[#00008B] drop-shadow-md "
+                                    key={k}
+                                    onClick={() => {
+                                      setSearchTerm(techStk.trim());
+                                    }}
+                                  >
+                                    {techStk.trim()}
+                                  </button>
+                                )
+                              );
+                            })}
+                        </SimpleGrid>
+                      </>
+                      <br />
+                      <br />
+                      <ProjectModal currProject={curElem} />
                     </div>
                   </div>
                 </div>
-              </a>
-            </div>
-          ))}
+              );
+            })}
         </div>
         <Spacer mt={16} />
       </section>
